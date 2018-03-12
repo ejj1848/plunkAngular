@@ -1,6 +1,6 @@
 (function() {
 
-  var module = angular.module("githubViewer");
+  var app = angular.module("githubViewer");
 
   var RepoController = function($scope, github, $routeParams) {
 
@@ -20,6 +20,6 @@
 
   };
 
-  module.controller("RepoController", RepoController);
+  app.controller("RepoController", RepoController);
 
 }());
